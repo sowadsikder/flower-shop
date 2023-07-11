@@ -257,6 +257,39 @@ button#subscribe {
   margin-left: 10px;
 }
 
+/* Now Available Section Styling Start*/
+section.now {
+  padding: 80px 0;
+}
+.now-box-container {
+  margin: 40px 0;
+}
+h3.section-title span {
+  color: #e55473;
+}
+.now-boxs-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.now-boxs-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.now-box {
+  width: 200px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.now-box img {
+  max-width: 100%;
+}
+
+
 
 /* Footer Section Styling Start */
 
