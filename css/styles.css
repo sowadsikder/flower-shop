@@ -54,21 +54,33 @@ button.btn-primary {
 /* Header Styling Start */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: url("../asset/pngwing\ 10.png"), lightgray;
   background-color: rgba(229, 84, 115, 0.1);
-  background-repeat: no-repeat;
-  background-size: contain;
   height: 100vh;
-  background-position: right;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-left {
+  width: 40%;
+}
+
+.banner-right {
+  width: 44%;
+}
+
+.banner-right img {
+  max-width: 100%;
+  margin-top: 60px;
+  margin-right: 240px;
 }
 h1.banner-title {
   color: #272727;
-  font-size: 37px;
+  font-size: 42px;
   font-weight: 800;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 p.banner-description {
@@ -76,12 +88,9 @@ p.banner-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
-.banner-container {
-  width: 35%;
-  margin-left: 100px;
-}
+
 
 /* Flower Section Styling Start */
 
@@ -156,38 +165,35 @@ section.support {
 /* Hot Deal Section Styling Start */
 
 section.hot-deal {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: url("../asset/pngwing\ 8.png"), lightgray 50%;
   border-radius: 8px;
   background-color: rgba(229, 84, 115, 0.05);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  height: 100vh;
-  padding: 80px 0;
-}
-.hot-deal-container {
-  width: 61%;
-  margin-left: 100px;
-}
-p#hot-description {
-  font-size: 12px;
-  margin-left: 0;
-  margin-bottom: 30px;
 }
 
+.hot-deal-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hot-deal-left {
+  text-align: center;
+}
 h1#hot-deal-title {
-  margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 35px;
+}
+p#hot-description {
+  margin: 20px auto;
 }
 
 h1#hot-deal-title span {
   color: #e55473;
 }
-button#sing-up {
-  margin-left: 110px;
+.hot-deal-right {
+  width: 50%;
+  margin: 100px 50px 100px 0px;
+}
+
+.hot-deal-right img {
+  max-width: 100%;
 }
 
 /*  Instagram Section Styling Start*/
@@ -243,17 +249,14 @@ input[type="email"] {
   border: none;
   border-radius: 8px;
   background: #fff;
-  padding: 10px;
+  padding: 15px;
   width: 30%;
 }
-input[type="submit"] {
-  padding: 10px 35px;
-  border-radius: 8px;
-  background: #E55473;
-  border: none;
-  color: #fff;
+button#subscribe {
+  padding: 10px 25px;
   margin-left: 10px;
 }
+
 
 /* Footer Section Styling Start */
 
