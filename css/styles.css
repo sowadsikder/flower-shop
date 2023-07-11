@@ -1,67 +1,96 @@
 /* Universal Styling Start */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* grouping styling start */
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  a {
-    font-family: "Ubuntu", sans-serif;
-  }
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  /* Shared styling start */
-  button.btn-primary {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 8px;
-    background: #E55473;
-    display: inline-flex;
-    padding: 20px 43px;
-    align-items: flex-start;
-    gap: 10px;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  /* Header Styling Start */
-  
-  header{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: url('../asset/pngwing\ 10.png'), lightgray;
-      background-color:rgba(229, 84, 115, 0.10);
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 100vh;
-      background-position: right;
-  }
-  h1.banner-title {
-    color: #272727;
-    font-size: 80px;
-    font-weight: 800;
-    margin-bottom: 40px;
+
+/* grouping styling start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Shared styling start */
+h3.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom:30px;
+}
+p.section-description {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: auto;
+  width: 60%;
+}
+button.btn-primary {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 0;
+  margin-bottom: 40px;
+}
+/* Header Styling Start */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../asset/pngwing\ 10.png'), lightgray;
+    background-color:rgba(229, 84, 115, 0.10);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-position: right;
+}
+h1.banner-title {
+  color: #272727;
+  font-size: 37px;
+  font-weight: 800;
+  margin-bottom: 40px;
 }
 
 p.banner-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 40px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
 }
 .banner-container {
-    width: 35%;
-    margin-left: 230px;
+  width: 35%;
+  margin-left: 100px;
+}
+
+/* Flower Section Styling Start */
+
+section.flower {
+padding: 80px 0;
+}
+.flower-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
 }
