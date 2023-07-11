@@ -211,3 +211,46 @@ section.instagram {
 .insta-box img {
   width: 100%;
 }
+
+/* Get Deal Section Styling Start */
+
+section.get-deal {
+  padding: 80px 0;
+}
+
+.get-deal-container {
+  background: url("../asset/Rectangle\ 9.png"), lightgray 50%;
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 0.05);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  margin: 0 30px;
+}
+h3#get-title {
+  padding-top: 45px;
+  margin-bottom: 10px !important;
+}
+p#get-descrp {
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 30px !important;
+}
+.input-box {
+  text-align: center;
+}
+input[type="email"] {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+  width: 30%;
+}
+input[type="submit"] {
+  padding: 10px 35px;
+  border-radius: 8px;
+  background: #E55473;
+  border: none;
+  color: #fff;
+  margin-left: 10px;
+}
