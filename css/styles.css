@@ -94,7 +94,7 @@ section.flower {
   align-items: center;
   margin: auto;
   gap: 24px;
-  width: 80%;
+  width: 90%;
 }
 .flower-item-box {
   width: 350px;
@@ -127,9 +127,9 @@ img.item-box-flower-1 {
   padding: 50px 50px 0 50px;
 }
 img.item-box-flower-2 {
-  width: 118%;
+  width: 121%;
   padding: 50px 50px 0 50px;
-  margin: 10px -30px 0;
+  margin: 10px -24px 0;
 }
 img.item-box-flower-3 {
   width: 94%;
@@ -150,7 +150,7 @@ section.support {
   text-align: center;
   height: 50vh;
   margin: auto;
-  width: 80%;
+  width: 92%;
 }
 
 /* Hot Deal Section Styling Start */
@@ -169,7 +169,7 @@ section.hot-deal {
   padding: 80px 0;
 }
 .hot-deal-container {
-  width: 70%;
+  width: 61%;
   margin-left: 100px;
 }
 p#hot-description {
@@ -200,7 +200,7 @@ section.instagram {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
-  margin: 30px;
+  margin: 50px;
 }
 
 .insta-box {
@@ -225,7 +225,7 @@ section.get-deal {
   background-repeat: no-repeat;
   background-size: cover;
   height: 60vh;
-  margin: 0 30px;
+  margin: 0 50px;
 }
 h3#get-title {
   padding-top: 45px;
@@ -253,4 +253,44 @@ input[type="submit"] {
   border: none;
   color: #fff;
   margin-left: 10px;
+}
+
+/* Footer Section Styling Start */
+
+footer {
+  background: #111010;
+  color: #fff;
+  text-align: center;
+}
+.footer-container {
+  padding: 100px 0;
+}
+h2.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+h2.footer-title span{
+  color: #E55473;
+}
+.footer-container {
+  padding: 100px 0;
+}
+
+p.footer-description {
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: auto;
+  width: 70%;
+}
+p.copyrights {
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 24px;
 }
